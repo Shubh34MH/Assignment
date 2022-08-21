@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f4f0;
+}
+
+.head {
+  font-family: "Fira Sans", sans-serif;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.head h1 {
+  font-size: 3rem;
+}
+
+nav {
+  width: 100%;
+  height: 48px;
+  background-color: #000305;
+}
+nav ul {
+  display: flex;
+  overflow: hidden;
+  list-style: none;
+}
+li,
+.a1,
+.a2,
+.a3,
+.a4 {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffff;
+}
+li a:hover {
+  background-color: #c74451;
+}
+
+.container {
+  display: flex;
+  margin: 1.25rem;
+  padding: 1rem;
+  font-family: "Fira sans", sans-serif;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+.b-1 {
+  width: 60%;
+  padding: 1rem;
+}
+.b-1 h3 {
+  color: #c74451;
+  font-size: 2rem;
+  padding-bottom: 8px;
+}
+.b-1 h4 {
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  letter-spacing: -1px;
+  font-size: 1.5rem;
+}
+.b-p {
+  font-size: 1rem;
+  padding-top: 0.5rem;
+  font-weight: 400;
+}
+.b-s {
+  display: flex;
+  border: 0.5px solid #b4b4b4;
+  border-radius: 6px;
+  padding: 16px;
+}
+.b-s h3 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: #f35a39;
+  letter-spacing: -1px;
+}
+
+.b-s h4 {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #b4b4b4;
+  margin-top: -1rem;
+  border-bottom: 2px dotted #b4b4b4;
+}
+
+.b-s-h {
+  padding-left: 1rem;
+}
+.b-s-p {
+  text-transform: uppercase;
+  color: #b4b4b4;
+}
+
+.blog-box {
+  margin: 1.25rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #ffff;
+}
+
+.blog-1 {
+  display: flex;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.auth-date {
+  width: 30%;
+  padding: 1rem;
+}
+
+.descp {
+  width: 80%;
+  padding: 1rem;
+}
+.tit {
+  color: #c74451;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.blog-2 {
+  display: flex;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.auth-date {
+  width: 30%;
+  padding: 1rem;
+}
+
+.descp {
+  width: 80%;
+  padding: 1rem;
+}
+.tit {
+  color: #c74451;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.blog-3 {
+  display: flex;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.auth-date {
+  width: 30%;
+  padding: 1rem;
+}
+
+.descp {
+  width: 80%;
+  padding: 1rem;
+}
+.tit {
+  color: #c74451;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.list-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+  font-family: "Fira Sans", sans-serif;
+  color: #c74451;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-left: 1rem;
+}
+.list li {
+  padding: 0.2rem 0 1rem 0;
+  border-bottom: 0.5px solid #b4b4b4;
+  color: #000305;
+}
+.li-1 ul {
+  list-style: none;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.li-2 ul {
+  list-style: none;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.li-3 ul {
+  list-style: none;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.li-4 ul {
+  list-style: none;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.sec {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #ffff;
+  border-radius: 10px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.sec-1 {
+  width: 30%;
+}
+.sec-h {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #c74451;
+}
+
+.sec-h2 {
+  font-weight: 400;
+}
+.sec-p {
+  padding: 1rem;
+  width: 80%;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+
+.f-p a {
+  padding-left: 1rem;
+  font-weight: 400;
+  color: #c74451;
+}
